@@ -10,13 +10,13 @@ var config = {
   site_title: 'Raneto Docs',
 
   // The base URL of your site (can use %base_url% in Markdown files)
-  base_url: '',
+  base_url: 'Beagle Knowledge Base',
 
   // Used for the "Get in touch" page footer link
-  support_email: '',
+  support_email: 'beagleteam@liverpool.ac.uk',
 
   // Footer Text / Copyright
-  copyright: 'Copyright &copy; ' + new Date().getFullYear() + ' - <a href="http://raneto.com">Powered by Raneto</a>',
+  copyright: 'Copyright &copy; ' + new Date().getFullYear() + ' University of Liverpool - <a href="http://raneto.com">Powered by Raneto</a>',
 
   // Excerpt length (used in search)
   excerpt_length: 400,
@@ -35,7 +35,7 @@ var config = {
 
   // Which Theme to Use?
   theme_dir  : path.join(__dirname, '..', 'themes'),
-  theme_name : 'default',
+  theme_name : 'beagle',
 
   // Specify the path of your content folder where all your '.md' files are located
   // Fix: Needs trailing slash for now!

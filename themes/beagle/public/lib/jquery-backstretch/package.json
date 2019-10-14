@@ -1,0 +1,68 @@
+{
+  "_from": "jquery-backstretch@2.1.17",
+  "_id": "jquery-backstretch@2.1.17",
+  "_inBundle": false,
+  "_integrity": "sha512-GFaZ7uzqIRvq4sKHpQCDghYVirX1dGfMLpMtTrv3d4vRNO96LkkzcZ7Cnkk+/nPX2VDxBh8G1FfO9hcY61J5CQ==",
+  "_location": "/raneto/jquery-backstretch",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "jquery-backstretch@2.1.17",
+    "name": "jquery-backstretch",
+    "escapedName": "jquery-backstretch",
+    "rawSpec": "2.1.17",
+    "saveSpec": null,
+    "fetchSpec": "2.1.17"
+  },
+  "_requiredBy": [
+    "/raneto"
+  ],
+  "_resolved": "https://registry.npmjs.org/jquery-backstretch/-/jquery-backstretch-2.1.17.tgz",
+  "_shasum": "0694ce452756936beac3d5b60df4dde2d8794fbb",
+  "_spec": "jquery-backstretch@2.1.17",
+  "_where": "f:\\nodejs\\node_modules\\raneto",
+  "author": {
+    "name": "Scott Robbin",
+    "email": "scott@robbin.co",
+    "url": "http://srobbin.com"
+  },
+  "bugs": {
+    "url": "https://github.com/jquery-backstretch/jquery-backstretch/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Daniel Cohen Gindi",
+      "email": "danielgindi@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1"
+  },
+  "deprecated": false,
+  "description": "A simple jQuery plugin that allows you to add a dynamically-resized, slideshow-capable background image to any page or element.",
+  "devDependencies": {
+    "grunt": "1.0.*",
+    "grunt-contrib-concat": "1.0.*",
+    "grunt-contrib-jshint": "1.0.*",
+    "grunt-contrib-qunit": "1.2.*",
+    "grunt-contrib-uglify": "2.0.*",
+    "grunt-contrib-watch": "1.0.*"
+  },
+  "homepage": "https://github.com/jquery-backstretch/jquery-backstretch#readme",
+  "keywords": [],
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "main": "jquery.backstretch.js",
+  "name": "jquery-backstretch",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jquery-backstretch/jquery-backstretch.git"
+  },
+  "title": "Backstretch",
+  "version": "2.1.17"
+}

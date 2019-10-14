@@ -22,7 +22,7 @@ const config = require('./config.default.js');
 const express = require('express');
 
 // Create two subapps with different configurations
-const appEndUser = raneto(Object.assign({}, config, {base_url: '/end-user', content_dir: path.join(__dirname, 'end-user-docs')}));
+const appEndUser = raneto(Object.assign({}, config, {base_url: '/end-user', content_dir: path.join(__dirname, 'end-user-docs'), site_title: 'Beagle Knowledge Base'}));
 const appTechnical = raneto(Object.assign({}, config, {base_url: '/technical', content_dir: path.join(__dirname, 'technical-docs'), site_title: 'Beagle Technical Documentation'}));
 
 // Create the main app

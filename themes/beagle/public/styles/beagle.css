@@ -1,0 +1,28 @@
+body {
+	font-size: 14px;
+}
+
+h1, .h1 {
+	font-size: 40px;
+}
+
+h2, .h2 {
+	font-size: 30px;
+	margin-top: 30px;
+}
+
+h3, .h3 {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+blockquote {  
+  background-color: #D8BFD8;
+  font-size: 1em;
+  border: none;
+}
+
+.category-title > a {
+  font-size: 1.3em;
+  font-weight: bold;
+}
