@@ -31,3 +31,7 @@ themes/default/public/lib/
 .DS_Store
 
 .idea
+
+# Beagle's actual documentation files
+end-user-docs/
+technical-docs/
