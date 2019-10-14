@@ -1,2 +1,0 @@
-# Main Diary
-*Requires editing*

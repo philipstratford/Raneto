@@ -1,6 +1,0 @@
-# Estimates
-Estimates are primarily a collection of Cost Types. The master Estimate record is linked with one or more Cost Types in the *Estimate_CostType* table. Additionally, an Estimate may have an additional line for miscellaneous costs added, which are stored in the *Estimate* record itself.
-
-When create an Estimate a User may choose to add a [Cost Type Package](Cost%20Type%20Packages.md) rather than a Cost Type, so as to quickly add multiple Cost Types. If the Cost Type Package added does not have a custom price configured then all that happens is that the individual Cost Types associated with the Cost Type Package are associated with the Estimate. However, if the Cost Type Package has a custom price, a record is instead written to the *Estimate_CostTypePackage* table to link the Cost Type Package itself with the Estimate and to store the custom price.
-
-The User has the option to create Cost Type Package from an Estimate. However, if a Cost Type Package with a custom price has been added to the Estimate this option is not available.

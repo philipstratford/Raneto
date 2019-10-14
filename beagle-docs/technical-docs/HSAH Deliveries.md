@@ -1,2 +1,0 @@
-# HSAH Deliveries
-As part of the [Goods Received](Goods%20Received.md) functionality, Beagle allows the downloading of delivery information from Henry Schein (HSAH). The code files responsible for this are ../API/HSAHService.cs and ..API/HSAHDeliveryRequestController, and these are written according to the [Internet Data Interface specification v1.14](https://leahurst.visualstudio.com/Beagle/_versionControl?path=%24%2FBeagle%2FDev%2FBeagle%20Documentation%2FBeagleDocumentation%2FTechnical%2Fassets%2FInternet%20Data%20Interface%201.14.pdf) supplied by Henry Schein.
