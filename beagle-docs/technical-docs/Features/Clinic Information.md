@@ -1,0 +1,82 @@
+# Clinic Information
+
+**Feature ID** 7000
+
+## Launched From
+
+- [System Configuration](System%20Configuration.md) > General Settings
+
+## Available Features
+
+- [Edit Address](Edit%20Address.md)
+
+- [Add Address](Add%20Address.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

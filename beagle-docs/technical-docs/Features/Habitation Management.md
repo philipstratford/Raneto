@@ -1,0 +1,82 @@
+# Habitation Management
+
+**Feature ID** 22600
+
+## Launched From
+
+- [Application Menu](Application%20Menu.md)
+
+## Available Features
+
+- [Discharge In-Patient](Discharge%20In-Patient.md)
+
+- [Habitation History](Habitation%20History.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

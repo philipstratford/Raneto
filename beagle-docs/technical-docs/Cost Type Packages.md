@@ -1,0 +1,4 @@
+# Cost Type Packages
+Cost Type Packages are essentially just a collection of Cost Types which is created to allow Users to quickly charge for Cost Types which are frequently added together. Users maintain Cost Type Packages in System Configuration.
+
+When creating a Cost Type Package it is possible to specify a custom price which will be charged for the entire collection of Cost Types instead of charging for each one individually. If this has been done, when the Cost Type Package is applied to a Referral, Costs are added to the Referral according to the Cost Types linked with the Cost Type Package, but each one has a price of £0.00 and a NULL VAT Code and External Tax Code. In addition, a Custom Cost is also added, with the description of the Cost Type Package and the custom price used as its price.

@@ -1,0 +1,6 @@
+# Shared Accounts
+Beagle supports Shared Accounts, defined as Windows accounts which may have been used to login to a computer or a browser but which do not belong to a particular User, for example the *sahot* account. It is not desirable for these accounts to be available for use in Beagle because the application ties so much functionality to knowing who the logged-in User is, but it is a matter of practicality that these accounts are used around the hospitals and practices to login to computers.
+
+Beagle's solution is to allow these Shared Accounts to be designated as such by adding them to the special *Shared Accounts* [Security Group](Security%20Groups.md). If an account in this Security Group is used to login to Beagle, the application will then redirect the User to the Beagle login page so that they can login using their own personal credentials.
+
+When a Shared Account has been used to login to Beagle initially, any subsequent Beagle sessions will automatically expire after a time specified in System Configuration. See [Session Timeout](Session%20Timeout.md).

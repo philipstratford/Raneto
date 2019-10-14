@@ -1,0 +1,12 @@
+# Edit Clinical Parameter Type
+**Feature ID** 13600
+
+## Launched From
+- [Clinical Parameter Types](Clinical%20Parameter%20Types.md)
+
+## Technical Details
+If one of the Clinical Parameter Types has been designated for use for recording Animal height on the [Animal General Settings](Animal%20General%20Settings.md) page, Users will not be able to edit the Measurement Unit selection for that Clinical Parameter Type when editing it. Only a User belonging to the [Developers Only Security Group](..\Security.md#developers-only-group) will be able to change this setting. The reason for this is that Animal height measurements are recorded directly against the Animal in the _Animal_._Height_ column (as opposed to measurements of other Clinical Parameter Types, which are stored in the _ClinicalParameter_ table along with the Measurement Unit that was set for that Clincial Parameter Type at the time of the measurement) and therefore changing the Measurement Unit for the Clinical Parameter Type being used for Animal height after height measurements have been recorded would result in spurious data. 
+
+For example, if the Measurement Unit for the Clinical Parameter Type being used for Animal height was "hands" (hh), a User might record that a particular Animal's height was 18.5hh. If the Measurement Unit for that Cinical Parameter Type was subsequently changed to "centimetres", when that Animal's record is opened it will appear as if the Animal's height is 18.5cm. Therefore, it if should become necessary to change the unit of measurement for a Clinical Parameter being used for Animal height, a query would need to be run on the database to convert existing Animal height measurements to the new measurement unit (needless to say that this it is strongly recommended that this is never done!).
+
+The _IncludeInClinicalObservations_ setting found in the _ClinicalParameterType_ table in the database is not avaiable to Users for editing unless they belong to the [Developers Only Security Group](..\Security.md#developers-only-group). This setting allows developers to specify that certain Clinical Parameter Types, e.g. Animal height, should not be recorded as part of [Clinical Observsations](..\Clinical%20Observations.md), but there are no circumstances under which we'd want Users to set a Clinical Parameter Type not to be visible in Clinical Observations or to set a Clinical Parameter Type which developers had set to be hidden in Clinical Observations to be displayed instead.

@@ -1,0 +1,2 @@
+# Home Pages
+The Beagle applicaiton features different home pages for different User groups, the idea being that for most Users the home page surfaces all of the key information pertinent to their job role. A Home Page is 

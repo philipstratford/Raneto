@@ -1,0 +1,82 @@
+# History Item Types
+
+**Feature ID** 22900
+
+## Launched From
+
+- [System Configuration](System%20Configuration.md) > Other Lookups
+
+## Available Features
+
+- Export History Item Types
+
+- [Edit History Item Type](Edit%20History%20Item%20Type.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,82 @@
+# Action Types
+
+**Feature ID** 200
+
+## Launched From
+
+- [System Configuration](System%20Configuration.md) > Actions
+
+## Available Features
+
+- Export Action Types
+
+- [Edit Action Type](Edit%20Action%20Type.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

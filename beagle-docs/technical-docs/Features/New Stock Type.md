@@ -1,0 +1,82 @@
+# New Stock Type
+
+**Feature ID** 33000
+
+## Launched From
+
+- [Edit Cost Type](Edit%20Cost%20Type.md)
+
+- [New Cost Type](New%20Cost%20Type.md)
+
+## Available Features
+
+- [Add Attachment](Add%20Attachment.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

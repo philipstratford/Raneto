@@ -1,0 +1,82 @@
+# Templates
+
+**Feature ID** 40000
+
+## Launched From
+
+- [System Configuration](System%20Configuration.md) > Documents
+
+## Available Features
+
+- [New Template](New%20Template.md)
+
+- [Edit Template](Edit%20Template.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

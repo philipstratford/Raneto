@@ -1,0 +1,15 @@
+#Assigning Referrals
+
+## Booking Appointments to a Member of Staff
+
+When an appointment is booked in the diary, if it is assigned to a member of staff, it will appear in the diary for that member of staff.
+
+If the Responsible Referral Role is set before the appointment is arrived, then the appointment will move to the diary for that member of staff.
+
+When the Appointment is arrived, the arrival wizard will set the Responsible Referral Role to the member of staff in whose diary the appointment is booked.
+
+The Current Appointment list will be updated and display the Responsible Referral Role for the appointment.
+
+If the Responsible Referral Role is changed after the appointment has been arrived, the Responsible Referral Role is updated but the appointment remains in the diary for the original member of staff.
+
+

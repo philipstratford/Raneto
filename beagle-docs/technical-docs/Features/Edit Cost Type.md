@@ -1,0 +1,82 @@
+# Edit Cost Type
+
+**Feature ID** 14600
+
+## Launched From
+
+- [Cost Types](Cost%20Types.md)
+
+## Available Features
+
+- [Edit Stock Type](Edit%20Stock%20Type.md)
+
+- [New Stock Type](New%20Stock%20Type.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

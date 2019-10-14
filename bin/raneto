@@ -25,7 +25,7 @@ program
   .action(function () {
     pm2.connect(function () {
       pm2.start({
-        script    : path.normalize(path.join(__dirname, '..', 'example', 'server.js')),
+        script    : path.normalize(path.join(__dirname, '..', 'beagle-docs', 'server.js')),
         exec_mode : 'fork',
         instances : 1,
         name      : 'raneto'
@@ -115,7 +115,7 @@ program
 // Show the config file location in the help
 function customHelp (text) {
   var textArray = text.split(/\r?\n/);
-  textArray[3]  = '  Config: ' + path.normalize(path.join(__dirname, '..', 'example', 'config.default.js')) + '\n';
+  textArray[3]  = '  Config: ' + path.normalize(path.join(__dirname, '..', 'beagle-docs', 'config.default.js')) + '\n';
   return textArray.join('\n');
 }
 

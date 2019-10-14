@@ -1,0 +1,82 @@
+# Cost Type Packages
+
+**Feature ID** 8700
+
+## Launched From
+
+- [System Configuration](System%20Configuration.md) > Pharmacy and Stock
+
+## Available Features
+
+- [New Cost Type Package](New%20Cost%20Type%20Package.md)
+
+- [Edit Cost Type Package](Edit%20Cost%20Type%20Package.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
