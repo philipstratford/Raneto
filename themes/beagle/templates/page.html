@@ -10,8 +10,7 @@
       {{#pages}}
         <li class="category {{#active}} active{{/active}}">
           {{#is_index}}
-            <h5 class="category-title">
-				{{^config.menu_on_page_collapsible}}{{lang.global.mainArticles}}{{/config.menu_on_page_collapsible}}
+            <h5 class="category-title">{{^config.menu_on_page_collapsible}}{{lang.global.mainArticles}}{{/config.menu_on_page_collapsible}}
 				{{#config.menu_on_page_collapsible}}
 					<a href="#category_{{sort}}" data-toggle="collapse">{{lang.global.mainArticles}}</a>
 				{{/config.menu_on_page_collapsible}}
