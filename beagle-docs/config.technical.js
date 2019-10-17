@@ -48,7 +48,7 @@ var config = {
   // The base URL of your images folder,
   // Relative to config.public_dir
   // (can use %image_url% in Markdown files)
-  image_url: '/technical/images',
+  image_url: '/technical/_technical_images', //I'm not making any use of this for Beagle documentation, paths to images don't use this variable (though it does work)
 
   // Add your analytics tracking code (including script tags)
   analytics: '',
