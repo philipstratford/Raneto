@@ -7,10 +7,10 @@ var path = require('path');
 var config = {
 
   // Your site title (format: page_title - site_title)
-  site_title: 'Raneto Docs',
+  site_title: 'Beagle Technical Documentation',
 
   // The base URL of your site (can use %base_url% in Markdown files)
-  base_url: 'Beagle Knowledge Base',
+  base_url: '/technical',
 
   // Used for the "Get in touch" page footer link
   support_email: 'beagleteam@liverpool.ac.uk',
@@ -40,15 +40,15 @@ var config = {
   // Specify the path of your content folder where all your '.md' files are located
   // Fix: Needs trailing slash for now!
   // Fix: Cannot be an absolute path
-  content_dir : path.join(__dirname, 'content'),
+  content_dir : path.join(__dirname, 'technical'),
 
   // Where is the public directory or document root?
-  public_dir  : path.join(__dirname, '..', 'themes', 'default', 'public'),
+  public_dir  : path.join(__dirname, '..', 'themes', 'beagle', 'public'),
 
   // The base URL of your images folder,
   // Relative to config.public_dir
   // (can use %image_url% in Markdown files)
-  image_url: '/images',
+  image_url: '/technical/images',
 
   // Add your analytics tracking code (including script tags)
   analytics: '',

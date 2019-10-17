@@ -35,7 +35,7 @@ async function handler (activePageSlug, config) {
   for (const result of results) {
     if (result && result.is_directory) {
       filesProcessed.push(result);
-    } else if (result && !result.is_directory) {
+    } else if (result && result.is_directory === false) {
       const dirSlug = path.dirname(result.slug);
       const parent = _.find(filesProcessed, item => item.slug === dirSlug);
       parent.files.push(result);
@@ -63,7 +63,6 @@ async function processFile (config, activePageSlug, contentDir, filePath) {
     let sort = 0;
     // ignore directories that has an ignore file under it
     const ignoreFile = contentDir + shortPath + '/ignore';
-
     const ignoreExists = await fs.lstat(ignoreFile).then(stat => stat.isFile(), () => {});
     if (ignoreExists) {
       return true;

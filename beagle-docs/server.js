@@ -6,7 +6,6 @@
 
 // Modules
 const debug = require('debug')('raneto');
-var path = require('path');
 
 // Here is where we load Raneto.
 // When you are in your own project repository,
@@ -17,13 +16,14 @@ var path = require('path');
 const raneto = require('../app/index.js');
 
 // Load our base configuration file.
-const config = require('./config.default.js');
+const endUserConfig = require('./config.end-user.js');
+const technicalConfig = require('./config.technical.js');
 
 const express = require('express');
 
 // Create two subapps with different configurations
-const appEndUser = raneto(Object.assign({}, config, {base_url: '/end-user', content_dir: path.join(__dirname, 'end-user-docs'), site_title: 'Beagle Knowledge Base'}));
-const appTechnical = raneto(Object.assign({}, config, {base_url: '/technical', content_dir: path.join(__dirname, 'technical-docs'), site_title: 'Beagle Technical Documentation'}));
+const appEndUser = raneto(endUserConfig);
+const appTechnical = raneto(technicalConfig);
 
 // Create the main app
 const mainApp = express();
@@ -34,5 +34,3 @@ mainApp.use('/technical', appTechnical);
 const server = mainApp.listen(3000, function () {
   debug('Express HTTP server listening on port ' + server.address().port);
 });
-
-// Now navigate to http://localhost:3000/en and http://localhost:3000/es
