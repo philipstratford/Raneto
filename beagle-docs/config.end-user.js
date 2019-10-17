@@ -115,13 +115,13 @@ var config = {
   // ]
 
   // Set to true to enable generation of table of contents
-  table_of_contents: false,
+  table_of_contents: true,
 
   // Configure generation of table of contents (see markdown-toc's docs for details on available options)
   table_of_contents_options: {
     // append: 'Table of contents appendix',
     // maxdepth: 6,
-    // firsth1: true,
+    ///firsth1: false
   },
 
   menu_on_pages: true,

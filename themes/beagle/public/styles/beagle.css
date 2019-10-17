@@ -125,3 +125,14 @@ gets some weird inline styles added by an unidentified process at some point dur
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
+#table-of-contents + ul {
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+#table-of-contents + ul,
+#table-of-contents + ul ul {
+  padding-left: 20px;
+}
