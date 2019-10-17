@@ -101,3 +101,27 @@ ul.menu li.category:not(.active) {
   list-style-type: none;
   padding-left: 20px;
 }
+
+/*The beagle-home-categories styles below are almost identical to the default raneto ones but the element with the .home-categories class
+gets some weird inline styles added by an unidentified process at some point during the page's creation which leads to a undesired layout*/
+.beagle-home-categories {
+  margin: 20px 10px;
+}
+
+.beagle-home-categories div div.card {
+  border: 0;
+  margin-top: 10px;
+}
+
+.beagle-home-categories .card-heading {
+  margin: 0;
+  font-weight: bold;
+  padding: 5px 0;
+}
+
+.beagle-home-categories .card-heading,
+.beagle-home-categories .card .page {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
