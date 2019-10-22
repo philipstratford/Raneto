@@ -121,7 +121,7 @@ var config = {
   table_of_contents_options: {
     // append: 'Table of contents appendix',
     // maxdepth: 6,
-    ///firsth1: false
+    // firsth1: false
   },
 
   menu_on_pages: true,

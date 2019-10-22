@@ -43,7 +43,7 @@
                         <li class="page{{#active}} active{{/active}}"><a href="{{config.base_url}}/{{slug}}">{{title}}</a></li>
                       {{/is_directory}}
                       {{#is_directory}}
-                        <li class="page{{#active}} active{{/active}}">{{title}}</li>
+                        <li class="page subcategory-title{{#active}} active{{/active}}"><span>{{title}}</span></li>
                         <ul>
                           {{#files}}
                             <li class="page{{#active}} active{{/active}}"><a href="{{config.base_url}}/{{slug}}">{{title}}</a></li>
