@@ -35,3 +35,5 @@ themes/default/public/lib/
 # Beagle's actual documentation files
 end-user-docs/
 technical-docs/
+_end-user-images/
+_technical-images/
