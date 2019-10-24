@@ -17,7 +17,7 @@
       hljs.initHighlightingOnLoad();
 
       // Add Bootstrap styling to tables
-      $(".content table").addClass("table");
+      $(".content table").addClass("table table-striped table-bordered");
 
       // FitVids
       fitvids(".content");
