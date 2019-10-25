@@ -90,7 +90,7 @@
           </div>
         {{/config.support_email}}
         <div class="last-updated float-right">
-          {{lang.global.lastUpdated}} {{last_modified}}
+          {{#meta.modified}}{{lang.global.lastUpdated}} {{meta.modified}}{{/meta.modified}}
         </div>
       </div>
 
