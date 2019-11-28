@@ -34,7 +34,8 @@ function route_home (config) {
 
     var template_filepath = get_filepath({
       content  : [config.theme_dir, config.theme_name, 'templates'].join('/'),
-      filename : 'home.html'
+      //filename : 'home.html'
+	  filename : config.home_page_name + '.html'
     });
 
     // Filter out the image content directory and items with show_on_home == false
@@ -47,7 +48,7 @@ function route_home (config) {
         })
         .value());
 
-    return res.render('home', {
+    return res.render(config.home_page_name, {
       config        : config,
       pages         : build_nested_pages(pageList),
       body_class    : 'page-home',

@@ -1,0 +1,55 @@
+<div class="home-search jumbotron row">
+  <div class="col col-xs-12 col-sm-12 col-md-12 col-lg-12">
+	<form class="search-form form-inline" action="{{config.base_url}}/">
+	  <div class="col-sm-12">
+	  <h1 class="display-1">Welcome to the Beagle Knowledge Base</h1>
+      <h2>Looking for something specific?</h2>
+	  </div>
+      <div class="form-group">
+        <label class="sr-only" for="home-search">{{lang.home.searchKnowledgeBase}}</label>
+		<div class="input-group input-group-lg">
+          <input type="search" class="form-control" name="search" id="home-search" size="50" placeholder="{{lang.home.searchKnowledgeBase}}">
+		  <div class="input-group-append">
+            <button type="submit" class="btn btn-primary">{{lang.global.search}}</button>
+          </div>
+		</div>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div class="col-sm-12 text-center">  
+  <h3>This knowledge base contains a user guide for Beagle, tutorials, quick introductions to key Beagle concepts and more. It is a central point of information for everything relating to Beagle. Use the search box above to search for a particular topic of interest, or browse the topics listed below.</h3>
+</div>
+
+<div class="beagle-home-categories row justify-content-center">
+  <div class="col-sm-3 col-xs-12 col">
+    <div class="card {{class}}">
+	  <h2 class="card-heading">Getting Started</h2>
+	  <ul class="pages list-group">
+		  <li class="list-group-item page"><a href="#">Introduction to Beagle</a></li>
+		  <li class="list-group-item page"><a href="#">How do I access Beagle?</a></li>
+	  </ul>
+    </div>
+  </div>
+  <div class="col-sm-3 col-xs-12 col">
+    <div class="card {{class}}">
+	  <h2 class="card-heading">Introduction To...</h2>
+	  <ul class="pages list-group">
+		  <li class="list-group-item page"><a href="#">Introduction to Beagle</a></li>
+		  <li class="list-group-item page"><a href="#">Introduction to Referrals</a></li>
+		  <li class="list-group-item page"><a href="#">Introduction to Actions</a></li>
+	  </ul>
+    </div>
+  </div>
+  <div class="col-sm-3 col-xs-12 col">
+    <div class="card {{class}}">
+	  <h2 class="card-heading">Other Articles</h2>
+	  <ul class="pages list-group">
+		  <li class="list-group-item page"><a href="#">Here's One!</a></li>
+		  <li class="list-group-item page"><a href="#">And Another</a></li>
+		  <li class="list-group-item page"><a href="#">This is the Last One</a></li>
+	  </ul>
+    </div>
+  </div>
+</div>

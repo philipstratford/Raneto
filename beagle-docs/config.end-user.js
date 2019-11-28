@@ -113,6 +113,8 @@ var config = {
   //     content: 'test variable 2'
   //   }
   // ]
+  
+  home_page_name : 'end-user-home',
 
   // Set to true to enable generation of table of contents
   table_of_contents: true,
