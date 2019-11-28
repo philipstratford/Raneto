@@ -164,3 +164,8 @@ gets some weird inline styles added by an unidentified process at some point dur
 #table-of-contents + ul ul {
   padding-left: 20px;
 }
+
+img + em {
+  display: block;
+  font-size: 0.9em;
+}
